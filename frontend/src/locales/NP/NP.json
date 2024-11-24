@@ -140,77 +140,181 @@
 
   "products": [
     {
+      "id": "prod_01_001",
+      "name": "चिकन बर्गर",
+      "price": 340,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "category": "01"
+    },
+    {
+      "id": "prod_01_002",
+      "name": "बिफ बर्गर",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1550317138-10000687a72b",
+      "category": "01"
+    },
+    {
+      "id": "prod_01_003",
+      "name": "भेगि बर्गर",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1550317138-10000687a72b",
+      "category": "01"
+    },
+    {
+      "id": "prod_02_001",
+      "name": "स्पाइसी चिकन",
+      "price": 335,
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/1200px-Chicken_65_28Dish29_20191120163642.jpg",
+      "category": "02"
+    },
+    {
+      "id": "prod_02_002",
+      "name": "स्पाइसी पनीर",
+      "price": 230,
+      "image": "https://img.buzzfeed.com/buzzfeed-static/static/2021-02/1/17/asset/b616c894820c/sub-buzz-7579-1612202237-12.jpg?downsize=900:*&output-format=auto&output-quality=auto",
+      "category": "02"
+    },
+    {
+      "id": "prod_02_003",
+      "name": "स्पाइसी पास्ता",
+      "price": 600,
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/220926201346-07-body-spicy-dishes-penne-allarrabbiata.jpg?q=w_1110,c_fill",
+      "category": "02"
+    },
+    {
+      "id": "prod_02_004",
+      "name": "स्पाइसी ग्रीन चिली",
+      "price": 330,
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/38/46/5d/our-specialty-in-indian.jpg",
+      "category": "02"
+    },
+    {
+      "id": "prod_03_001",
+      "name": "तरबुज स्मूदी",
+      "price": 130,
+      "image": "https://www.wellplated.com/wp-content/uploads/2020/07/Creamy-Watermelon-Smoothie.jpg",
+      "category": "03"
+    },
+    {
+      "id": "prod_03_002",
+      "name": "स्ट्रबेरी बनाना स्मूदी",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ1Jeh2qpvpH59E0YVWdXj-XqMqqTkUC-aUg&s",
+      "category": "03"
+    },
+    {
+      "id": "prod_03_003",
+      "name": "बेरी स्मूदी",
+      "price": 320,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/how-to-make-a-smoothie-index-6696cb511cd97.png?crop=1.00xw:1.00xh;0,0",
+      "category": "03"
+    },
+    {
+      "id": "prod_03_00thukpa01",
+      "name": "तरकारी थुक्पा",
+      "price": 220,
+      "image": "https://files.oaiusercontent.com/file-BHmX4BWjKczxDVsKQXUuBj?se=2024-11-24T13%3A29%3A53Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D59e9d5b7-f794-4b48-9c57-c5b6ef3a6b86.webp&sig=0anwYCWCNI/KGLsnFled6r537iYuwCXjMVJJuWQuIxQ%3D",
+      "category": "09"
+    },
+    {
+      "id": "prod_03_00thukpa02",
+      "name": "चिकन थुक्पा",
+      "price": 300,
+      "image": "https://files.oaiusercontent.com/file-4vCQtvrPf1HjP15q8P3q9g?se=2024-11-24T13%3A30%3A19Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D4ac69227-47fd-49a1-8eb6-64e91edcafd2.webp&sig=XbUabFZEYZjib%2BBTMxPt6CELXI8sCsjpE0KjNH5f7FQ%3D",
+      "category": "09"
+    },
+    {
+      "id": "fjw89ijoijrjoisj",
+      "name": "वेग पिज्जा",
+      "price": "230",
+      "image": "https://i.ytimg.com/vi/WgR8ow13DpE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBALH_XQB6LGNlEx9rEnP0VlkVN3A,",
+      "category": "04"
+    },
+    {
+      "id": "fjw89fdpjdsrjoisj",
+      "name": "चिक पिज्जा",
+      "price": "330",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1200px-Pizza-3007395.jpg",
+      "category": "04"
+    },
+    {
+      "id": "fjw89rjoisj",
+      "name": "गर्म चेरी मिर्च र रातो प्याज पिज्जा",
+      "price": "230",
+      "image": "https://www.columbuscraftmeats.com/wp-content/uploads/2023/05/Web_1600_Italian-Dry-Salami-Hot-Cherry-Peppers-and-Red-Onion-Pizza.jpg",
+      "category": "04"
+    },
+    {
       "id": "Coca fsapojdascola",
       "name": "कोका कोला",
-      "price": "६०",
+      "price": "60",
       "image": "https://thumbs.dreamstime.com/b/coca-cola-disposable-paper-cup-ice-cubes-ankara-turkey-may-coca-cola-cup-ice-cubes-glass-isolated-white-151775452.jpg",
       "category": "05"
     },
     {
       "id": "fkjsa;sajds904efpweflsdv",
       "name": "चिकन ग्रिल",
-      "price": "८९९",
+      "price": "899",
       "image": "https://c.ndtvimg.com/pxnvr8gg3bg_barbecue_625x300.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886",
       "category": "06"
     },
     {
-      "id": "fkjsa;sajds904efpweflsdv",
+      "id": "fkjsa;sajpopjds904efpweflsdv",
       "name": "मटन ग्रिल",
-      "price": "१६००",
+      "price": "1600",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9D8E011BJKuAsQUephlpsLLsyJqn0zaRfPA&s",
       "category": "06"
     },
     {
       "id": "fkjsa;sajds90gdfpdsjf4efpweflsdv",
       "name": "चिकन बिर्यानी",
-      "price": "३५०",
+      "price": "350",
       "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/hyderabadi-biryani-recipe-chicken.jpg",
       "category": "07"
     },
     {
       "id": "fkjsfsdjlldfsa;sajds904efpweflsdv",
       "name": "मटन बिर्यानी",
-      "price": "४६०",
+      "price": "460",
       "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2021/03/Best-Mutton-Biryani-Recipe.jpg",
       "category": "07"
     },
     {
       "id": "fkjsfsdjlldfsa;sajds904dsjfodsaefpweflsdv",
-      "name": "बफ सुकेको",
-      "price": "३९०",
+      "name": "बफ सुकुटी",
+      "price": "390",
       "image": "https://khanaadda.com/wp-content/uploads/2024/04/sukuti.jpg",
       "category": "10"
     },
     {
-      "id": "fkjsfsdf92-9epdwjlldfsa;sajds904efpweflsdv",
-      "name": "बाजेको सुकेको",
-      "price": "४६०",
+      "id": "fkjsfjsds04rdsjfd;akljdsla;jasjds904efpweflsdv",
+      "name": "बजेको सुकुटी",
+      "price": "460",
       "image": "https://www.muncha.com/img/l86291.jpg",
       "category": "10"
     },
     {
       "id": "fkfsoijsjsfsdf92-9epdwjlldfsa;sajds904efpweflsdv",
-      "name": "दूध चिया",
+      "name": "दुध चिया",
       "price": "३०",
-      "image": "https://www.muncha.com/img/l86291.jpg",
+      "image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2023-12-milk-tea%2Fmilk-tea-587",
       "category": "11"
     },
     {
       "id": "fkfsoifsoijd0a3j-wojsjiafdkpomsdsfsdf92-9epdwjlldfsa;sajds904efpweflsdv",
-      "name": "चिकन चौमिन",
+      "name": "चिकेन चाउमिन",
       "price": "१२०",
       "image": "https://www.recipetineats.com/tachyon/2018/08/Chow-Mein_1.jpg?resize=500%2C500",
       "category": "12"
     },
     {
       "id": "fkfsoifsoijfidsjofsd;d0a3j-wojsjiafdkpomsdsfsdf92-9epdwjlldfsa;sajds904efpweflsdv",
-      "name": "वेद चौमिन",
+      "name": "भेज चाउमिन",
       "price": "९०",
       "image": "https://palatablepastime.com/wp-content/uploads/2022/05/copycat-panda-express-chow-mein-sq.jpg",
       "category": "12"
     }
-]
-,
+  ],
 
   "eventData": [
     {
